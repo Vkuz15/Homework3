@@ -25,5 +25,15 @@ public class Main {
         long e = 987_678_965_549L;
         float f = 27.12f;
         double v = 2.786;
+
+        //Задача 3
+
+        int paper = 480;
+        byte ludmilaPavlovna = 23;
+        byte annaSergeevna = 27;
+        byte ekaterinaAndreevna = 30;
+        int totalStudents = ludmilaPavlovna + annaSergeevna + ekaterinaAndreevna;
+        int paperForStudent = paper / totalStudents;
+        System.out.println("На каждого ученика рассчитано " + paperForStudent + " листов бумаги");
     }
 }
