@@ -35,5 +35,19 @@ public class Main {
         int totalStudents = ludmilaPavlovna + annaSergeevna + ekaterinaAndreevna;
         int paperForStudent = paper / totalStudents;
         System.out.println("На каждого ученика рассчитано " + paperForStudent + " листов бумаги");
+
+        //Задача 4
+
+        byte machine = 16;
+        int machineOneMinute = machine / 2;
+        int machine20Minute = machineOneMinute * 20;
+        System.out.println("За 20 минут машина произвела " + machine20Minute + " штук бутылок");
+        int dayMinute = 60 * 24;
+        int machineDayMinute = dayMinute * machineOneMinute;
+        System.out.println("За сутки машина произвела " + machineDayMinute + " штук бутылок");
+        int machine3DayMinute = machineDayMinute * 3;
+        System.out.println("За трое суток машина произвела " + machine3DayMinute + " штук бутылок");
+        long machineMonthMinute = machineDayMinute * 30L;
+        System.out.println("За месяц машина произвела " + machineMonthMinute + " штук бутылок");
     }
 }
