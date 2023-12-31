@@ -49,5 +49,15 @@ public class Main {
         System.out.println("За трое суток машина произвела " + machine3DayMinute + " штук бутылок");
         long machineMonthMinute = machineDayMinute * 30L;
         System.out.println("За месяц машина произвела " + machineMonthMinute + " штук бутылок");
+
+        //Задача 5
+
+        byte white = 2;
+        byte brown = 4;
+        byte total = 120;
+        int totalClasses = total / 6;
+        int totalWhite = white * totalClasses;
+        int totalBrown = brown * totalClasses;
+        System.out.println("В школе, где " + totalClasses + " классов, нужно " + totalWhite + " банок белой краски и " + totalBrown + " банок коричневой краски");
     }
 }
