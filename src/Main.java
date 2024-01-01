@@ -69,5 +69,18 @@ public class Main {
         int totalWeightG = banana + milk + iceCream + eggs;
         double totalWeightKg = totalWeightG / 1000.0;
         System.out.println("Вес спортзавтрака в килограммах - " + totalWeightKg);
+
+        //Задача 7
+
+        int totalWeight = 7;
+        int oneGramDay = 250;
+        int twoGramDay = 500;
+        int gram = totalWeight * 1000;
+        int min = gram / oneGramDay;
+        int max = gram / twoGramDay;
+        System.out.println("Если спортсмен будет терять каждый день по 250 грамм - " + min);
+        System.out.println("Если спортсмен будет терять каждый день по 500 грамм - " + max);
+        int daysAverage = (min + max) / 2;
+        System.out.println("Если в среднем - " + daysAverage);
     }
 }
