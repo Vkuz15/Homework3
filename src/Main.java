@@ -59,5 +59,15 @@ public class Main {
         int totalWhite = white * totalClasses;
         int totalBrown = brown * totalClasses;
         System.out.println("В школе, где " + totalClasses + " классов, нужно " + totalWhite + " банок белой краски и " + totalBrown + " банок коричневой краски");
+
+        //Задача 6
+
+        int banana = 80 * 5;
+        int milk = 200 / 100 * 105;
+        int iceCream = 100 * 2;
+        int eggs = 70 * 4;
+        int totalWeightG = banana + milk + iceCream + eggs;
+        double totalWeightKg = totalWeightG / 1000.0;
+        System.out.println("Вес спортзавтрака в килограммах - " + totalWeightKg);
     }
 }
