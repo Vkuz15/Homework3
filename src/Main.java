@@ -82,5 +82,23 @@ public class Main {
         System.out.println("Если спортсмен будет терять каждый день по 500 грамм - " + max);
         int daysAverage = (min + max) / 2;
         System.out.println("Если в среднем - " + daysAverage);
+
+        //Задача 8
+
+        int masha = 67760;
+        int denis = 83690;
+        int kristina = 76230;
+        float upMasha = masha / 100f * 10;
+        float upDenis = denis / 100f * 10;
+        float upKristina = kristina / 100f * 10;
+        float newMasha = masha + upMasha;
+        float newDenis = denis + upDenis;
+        float newKristina = kristina + upKristina;
+        float yearMasha = upMasha * 12;
+        float yearDenis = upDenis * 12;
+        float yearKristina = upKristina * 12;
+        System.out.println("Маша теперь получает " + newMasha + " рублей. Годовой доход вырос на " + yearMasha + " рублей");
+        System.out.println("Денис теперь получает " + newDenis + " рублей. Годовой доход вырос на " + yearDenis + " рублей");
+        System.out.println("Кристина теперь получает " + newKristina + " рублей. Годовой доход вырос на " + yearKristina + " рублей");
     }
 }
